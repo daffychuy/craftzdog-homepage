@@ -25,7 +25,7 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
     <NextLink href={href} passHref scroll={false}>
       <Link
         p={2}
-        bg={active ? 'grassTeal' : undefined}
+        bg={active ? 'orange' : undefined}
         color={active ? '#202023' : inactiveColor}
         target={target}
         {...props}
@@ -71,13 +71,13 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href="/works" path={path}>
-            Works
+          <LinkItem href="/projects" path={path}>
+            Projects
           </LinkItem>
-          <LinkItem href="/posts" path={path}>
-            Posts
+          <LinkItem href="/resume" path={path}>
+            Resume
           </LinkItem>
-          <LinkItem
+          {/* <LinkItem
             target="_blank"
             href="https://github.com/craftzdog/craftzdog-homepage"
             path={path}
@@ -88,7 +88,7 @@ const Navbar = props => {
           >
             <IoLogoGithub />
             Source
-          </LinkItem>
+          </LinkItem> */}
         </Stack>
 
         <Box flex={1} align="right">
@@ -106,18 +106,15 @@ const Navbar = props => {
                 <NextLink href="/" passHref>
                   <MenuItem as={Link}>About</MenuItem>
                 </NextLink>
-                <NextLink href="/works" passHref>
-                  <MenuItem as={Link}>Works</MenuItem>
+                <NextLink href="/projects" passHref>
+                  <MenuItem as={Link}>Projects</MenuItem>
                 </NextLink>
-                <NextLink href="/posts" passHref>
-                  <MenuItem as={Link}>Posts</MenuItem>
-                </NextLink>
-                <MenuItem
-                  as={Link}
-                  href="https://github.com/craftzdog/craftzdog-homepage"
-                >
-                  View Source
-                </MenuItem>
+                  {/* <MenuItem
+                    as={Link}
+                    href="https://github.com/craftzdog/craftzdog-homepage"
+                  >
+                    View Source
+                  </MenuItem> */}
               </MenuList>
             </Menu>
           </Box>
