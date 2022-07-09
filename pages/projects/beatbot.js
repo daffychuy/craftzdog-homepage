@@ -4,16 +4,11 @@ import {
 	Link,
 	List,
 	ListItem,
-	SimpleGrid,
 	UnorderedList,
 	Heading,
 	Center,
-	Image,
-	Button
   } from '@chakra-ui/react'
   import Layout from '../../components/layouts/article'
-  import { ExternalLinkIcon } from '@chakra-ui/icons'
-  import { IoLogoGithub } from 'react-icons/io5'
   import { Title, WorkImage, Meta, Meta_Orange } from '../../components/project'
   import P from '../../components/paragraph'
   
