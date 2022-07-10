@@ -74,7 +74,7 @@ const VoxelCharmander = () => {
       controls.target = target
       setControls(controls)
 
-      loadGLTFModel(scene, '/charmander.gltf', {
+      loadGLTFModel(scene, '/charmander.glb', {
         receiveShadow: false,
         castShadow: false
       }).then(() => {
