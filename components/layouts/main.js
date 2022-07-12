@@ -3,9 +3,9 @@ import dynamic from 'next/dynamic'
 import NavBar from '../navbar'
 import { Box, Container } from '@chakra-ui/react'
 import Footer from '../footer'
-import VoxelCharmanderLoader from '../voxel-charmander-loader'
+import VoxelCharmanderLoader from '../voxel-main-loader'
 
-const LazyVoxelCharmander = dynamic(() => import('../voxel-charmander'), {
+const LazyVoxelCharmander = dynamic(() => import('../voxel-main'), {
   ssr: false,
   loading: () => <VoxelCharmanderLoader />
 })
