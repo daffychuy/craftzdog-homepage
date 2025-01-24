@@ -9,7 +9,7 @@ import thumbBeatbot from '../public/images/projects/beatbot/saberbot_frontpage.p
 const Projects = () => (
   <Layout title="Projects">
     <Container>
-      <Box
+      {/* <Box
         borderRadius="lg"
         mb={6}
         p={3}
@@ -17,8 +17,8 @@ const Projects = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        This page is under construction, for more projects, please visit my github for the time being.
-      </Box>
+        
+      </Box> */}
 
       <Heading as="h3" fontSize={20} mb={4}>
         Projects
@@ -63,36 +63,6 @@ const Projects = () => (
         </Section> */}
       </SimpleGrid>
 
-      <Section delay={0.4}>
-        <Divider my={6} />
-
-        <Heading as="h3" fontSize={20} mb={4}>
-          Archived Projects
-        </Heading>
-      </Section>
-
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        {/* <Section delay={0.5}>
-          <ProjectGridItem id="pichu2" thumbnail={thumbPichu2} title="Pichu*Pichu">
-            Piazza Bot
-          </ProjectGridItem>
-        </Section>
-        <Section delay={0.5}>
-          <ProjectGridItem
-            id="freedbtagger"
-            thumbnail={thumbFreeDBTagger}
-            title="freeDBTagger"
-          >
-            Automatic audio file tagging tool using FreeDB for Windows
-          </ProjectGridItem>
-        </Section>
-        <Section delay={0.6}>
-          <ProjectGridItem id="amembo" thumbnail={thumbAmembo} title="Amembo">
-            P2P private file sharing tool with MSN Messenger integration for
-            Windows
-          </ProjectGridItem>
-        </Section> */}
-      </SimpleGrid>
     </Container>
   </Layout>
 )

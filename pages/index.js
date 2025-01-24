@@ -41,7 +41,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Daniel Chu
           </Heading>
-          <p>Software Developer @ AMD</p>
+          <p>Senior Software Developer @ AMD</p>
         </Box>
         <Box
           flexShrink={0}
@@ -75,12 +75,8 @@ const Home = () => (
           About
         </Heading>
         <Paragraph>
-          Daniel is a Freshman out of University of Toronto who actively
-          seeks to improve his skill in software development. Is currently
-          also a Software Developer at AMD.
-
-          During my free time, I love to explore different technologies, and as a side
-          hobbies I love developing new technologies that benefits me! (Programmers are lazy)
+          I am a passionate software developer activtely striving for innovations.
+          I make software for a living and loves tinkering with homelab on a daily basis, whatever interest me I will give it a try.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/projects" passHref scroll={false}>
@@ -98,20 +94,19 @@ const Home = () => (
           <BioSection>
             <BioYear>2022 - Pres</BioYear>
             <BioDescription>
-              Working as a Full-Time Software Developer at AMD
+              Senior Software Developer @ AMD
             </BioDescription>
           </BioSection>
           <BioSection>
             <BioYear>2020 - 2021</BioYear>
             <BioDescription>
-              Software Test Developer Intenship at AMD
+              Software Test Developer Intenship @ AMD
             </BioDescription>
           </BioSection>
           <BioSection>
             <BioYear>2018 - 2022</BioYear>
             <BioDescription>
-              During my time at the University of Toronto, I also took on the
-              responsibility to TA students in various courses.
+              University of Toronto Teaching Assistant for multiple courses
             </BioDescription>
           </BioSection>
           <BioSection>
